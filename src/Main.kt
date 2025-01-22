@@ -13,3 +13,6 @@ hecho más de una compra en el mes, por lo que la función debe retornar una est
 una sola vez.
  */
 
+fun main(){
+
+}
