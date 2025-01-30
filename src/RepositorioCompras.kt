@@ -4,13 +4,21 @@ class RepositorioCompras() {
      * @constructor Crea un repositorio de compras
      * */
 
-    val compras = mutableListOf<Compra>()
+    val compras = mutableSetOf<Compra>()
+
     fun agregarCompra(compra: Compra){
         compras.add(compra)
     }
-    fun guardarDomicilios(domicilios: Set<Domicilio>){
-        for (i in domicilios){
 
+    fun obtenerDomicilios(): MutableSet<Domicilio> {
+
+        val domicilioUnicos = mutableSetOf<Domicilio>()
+
+        for (compra in compras){
+            domicilioUnicos.add(compra.cliente.domicilio)
         }
+        return domicilioUnicos
     }
+
+
 }

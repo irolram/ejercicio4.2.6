@@ -14,9 +14,37 @@ una sola vez.
  */
 
 fun main(){
-    val cliente1 = Cliente("Nuria Costa", Domicilio("Calle Las Flores", 355))
-    val compra1 = Compra(cliente1, 5, 12780.78)
+
+    val domicilio1 = Domicilio("Calle Las Flores", 355)
+    val domicilio2 = Domicilio("Mirasol",218)
+    val domicilio4 = Domicilio("La Mancha", 761)
+
+    val nuria = Cliente("Nuria Costa", domicilio1)
+    val jorge = Cliente("Jorge Russo", domicilio2)
+    val julian = Cliente("Julián Rodriguez", domicilio4)
+
+    val compra1 = Compra(nuria, 5, 12780.78)
+    val compra2 = Compra(jorge, 7, 699.0)
+    val compra3 = Compra(nuria, 7, 532.90)
+    val compra4 = Compra(julian, 12, 5194.0)
+    val compra5 = Compra(jorge, 15, 958.0)
+
+
     val listaDeCompra = RepositorioCompras()
+
+
     listaDeCompra.agregarCompra(compra1)
+    listaDeCompra.agregarCompra(compra2)
+    listaDeCompra.agregarCompra(compra3)
+    listaDeCompra.agregarCompra(compra4)
+    listaDeCompra.agregarCompra(compra5)
+
+    val superhieporke = listaDeCompra.obtenerDomicilios()
+
+    for (domicilio in superhieporke){
+        println(domicilio.dirCompleta())
+    }
+
+   // listaDeCompra.obtenerDomicilios().forEach { domicilio -> println(domicilio.dirCompleta()) }
 
 }

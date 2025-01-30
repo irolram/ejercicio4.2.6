@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2a95ff63-f9e9-4983-9a95-52ed6b176959" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compra.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compra.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RepositorioCompras.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RepositorioCompras.kt" afterDir="false" />
     </list>
@@ -25,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -36,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -71,6 +71,8 @@
       <workItem from="1737562409248" duration="792000" />
       <workItem from="1737644718105" duration="10000" />
       <workItem from="1738161738227" duration="6429000" />
+      <workItem from="1737574543160" duration="7000" />
+      <workItem from="1738264683105" duration="47000" />
     </task>
     <servers />
   </component>
