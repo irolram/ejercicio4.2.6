@@ -14,5 +14,9 @@ una sola vez.
  */
 
 fun main(){
+    val cliente1 = Cliente("Nuria Costa", Domicilio("Calle Las Flores", 355))
+    val compra1 = Compra(cliente1, 5, 12780.78)
+    val listaDeCompra = RepositorioCompras()
+    listaDeCompra.agregarCompra(compra1)
 
 }
